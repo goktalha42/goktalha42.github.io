@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bilgilerim"
+            android:icon="@drawable/me"
+            android:title="Profilim" />
+        <item
+            android:id="@+id/kisiler"
+            android:icon="@drawable/me"
+            android:title="Kişilerim" />
+        <item
+            android:id="@+id/ani"
+            android:icon="@drawable/me"
+            android:title="Anılarım" />
+        <item
+            android:id="@+id/notlar"
+            android:icon="@drawable/me"
+            android:title="Notlarım" />
+    </group>
+
+    <item android:title="Daha Fazla">
+        <menu>
+            <item
+                android:id="@+id/hakkinda"
+                android:icon="@drawable/me"
+                android:title="Hakkında" />
+            <item
+                android:id="@+id/cikis"
+                android:icon="@drawable/me"
+                android:title="Çıkış" />
+
+        </menu>
+
+
+    </item>
+
+</menu>

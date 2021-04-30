@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bilgilerim">
+
+    <include layout="@layout/actionbar"
+        android:id="@+id/bilgiActionBar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bilgiActionBar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+
+            <TextView
+                android:id="@+id/txtInfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ben Kimim"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adım"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soyadım"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <TextView
+                android:id="@+id/dgko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doğu Tarihim"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:id="@+id/birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="GG/AA/YYYY"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                />
+
+            <EditText
+                android:id="@+id/phoneNO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefon numaram"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/tcNO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="T.C. Numaram"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/important"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ulaşacağım önemli kişi"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/importantPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Önemli kişinin numarası"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <Button
+                android:id="@+id/kaydet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaydet"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="35dp"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

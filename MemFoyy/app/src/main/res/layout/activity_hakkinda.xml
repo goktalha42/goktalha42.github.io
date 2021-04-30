@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hakkinda">
+
+
+    <include layout="@layout/actionbar"
+        android:id="@+id/infoActionBar"/>
+
+
+    <TextView
+        android:id="@+id/txtInfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen, 3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 173301016 numaralı Talha GÖK tarafından 25 Haziran 2021 günü yapılmıştır."
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/infoActionBar"
+        />
+
+
+</RelativeLayout>

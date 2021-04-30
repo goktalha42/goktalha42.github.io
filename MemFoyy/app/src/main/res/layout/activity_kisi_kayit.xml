@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kisiKayitActivity">
+
+
+    <include layout="@layout/actionbar"
+        android:id="@+id/actionbar_kisi_kayit"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionbar_kisi_kayit"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/ilkinci"
+            >
+
+            <TextView
+                android:id="@+id/txtInfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sizin için önemli kişinin bilgilerini giriniz "
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                />
+
+            <EditText
+                android:id="@+id/kisi_adi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adı"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/kisi_soyadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soyadı"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/kisi_yakinlik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Yakınlığınız"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/kisi_yeri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefon numarası"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/kisi_telno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Yaşadığı şehir"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/kisi_adres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ev adresi"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kişinin Doğum Tarihi"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+                android:id="@+id/kisi_dogum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="GG/AA/YYYY"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                />
+
+            <Button
+                android:id="@+id/kisi_ekle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EKLE"
+                android:layout_margin="10dp"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_above="@id/iptal"
+                />
+            <Button
+                android:id="@+id/iptal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İPTAL"
+                android:layout_margin="10dp"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

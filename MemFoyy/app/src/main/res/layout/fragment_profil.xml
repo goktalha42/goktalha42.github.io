@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C4D1D1CB">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#C4D1D1CB"
+                tools:ignore="ExtraText">
+
+                //AD
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/AD1"
+                        android:text="ADIM: "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:id="@+id/AD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                //SOYAD
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/SOYAD1"
+                        android:text="SOYADIM: "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textStyle="italic"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:id="@+id/SOYAD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                //DOGUM GUNU
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/DGKO1"
+                        android:text="DOĞUM GÜNÜM: "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textStyle="italic"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:id="@+id/DGKO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                //ANNE ADI
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/ANA_AD1"
+                        android:text="ANNEMİN ADI: "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textStyle="italic"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:id="@+id/ANA_AD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                //BABA ADI
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/BABA_AD1"
+                        android:text="BABAMIN ADI: "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textStyle="italic"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:id="@+id/BABA_AD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                //OKULU
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/OKUL1"
+                        android:text="OKULUM: "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textStyle="italic"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:id="@+id/OKUL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                //DOĞDUĞU ŞEHİR
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/SEHİR1"
+                        android:text="DOĞDUĞUM ŞEHİR: "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textStyle="italic"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:id="@+id/SEHİR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25sp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>

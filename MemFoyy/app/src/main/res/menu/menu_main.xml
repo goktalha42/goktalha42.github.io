@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bilgilerim"
+        android:title="Kişisel Bilgi Ekle/Güncelle"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/info_kisi"
+        android:title="Kişi Ekle"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/info_ani"
+        android:title="Anı Ekle"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/info_not"
+        android:title="Not Ekle"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/info"
+        android:title="Hakkında"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/logOut"
+        android:title="Çıkış Yap"
+        app:showAsAction="never">
+    </item>
+
+</menu>

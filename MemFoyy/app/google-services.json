@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "810562591348",
+    "firebase_url": "https://memfoy-e3be6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "memfoy-e3be6",
+    "storage_bucket": "memfoy-e3be6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810562591348:android:05f96ca28c1dbd1e0e4f21",
+        "android_client_info": {
+          "package_name": "com.tajo.memfoyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810562591348-mrcitblngtjio00odtjroj102luo1atu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tajo.memfoyy",
+            "certificate_hash": "42e7576471607ee19c8c7570e89f388648c7fb37"
+          }
+        },
+        {
+          "client_id": "810562591348-e4mot610rvv0nthhnldbr7e6u7horaoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGTgYK0BbEWVJqZpbIpjblxlDd87Y3Bhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810562591348-e4mot610rvv0nthhnldbr7e6u7horaoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

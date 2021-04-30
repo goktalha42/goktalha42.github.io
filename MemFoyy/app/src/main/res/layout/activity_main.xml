@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:text="Giriş Yap"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/l_txtEmail"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/l_txtPassword"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="Parola"
+            android:inputType="textPassword"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:text="Hesabınız yok mu? "
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:text=" HESAP OLUŞTUR"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:id="@+id/l_txtRegister"
+                android:layout_marginEnd="2dp"
+                android:onClick="login"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/l_btnLogin"
+            android:layout_width="242dp"
+            android:layout_height="50dp"
+            android:text="GİRİŞ YAP"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
